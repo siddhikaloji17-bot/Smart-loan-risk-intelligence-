@@ -4,9 +4,6 @@ A data science project that predicts loan default risk, converts predictions
 into an interpretable **0–100 risk score**, explains each score with **SHAP**,
 and demos live through a **Streamlit dashboard**.
 
-## Project Structure
-
-```
 loan_risk_project/
 ├── data/
 │   ├── generate_data.py      # Creates a realistic synthetic loan dataset
@@ -19,7 +16,6 @@ loan_risk_project/
 ├── models/                   # Saved best model + preprocessing pipeline
 ├── outputs/                  # All generated plots (EDA, ROC, confusion matrix, SHAP)
 └── README.md
-```
 
 ## How to Run (in order)
 
